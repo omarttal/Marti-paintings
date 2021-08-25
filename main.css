@@ -14,7 +14,7 @@ body {
 
 .heading__container {
   padding-top: 2rem;
-  height: 80vh;
+  height: 65vh;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#262e8f), color-stop(50%, #070707));
   background-image: linear-gradient(to bottom, #262e8f, #070707 50%);
 }
@@ -42,7 +42,7 @@ body {
 }
 
 .img-container {
-  margin-top: 8rem;
+  margin-top: 25rem;
   background-image: url(img5.png);
   height: 60rem;
   position: relative;
