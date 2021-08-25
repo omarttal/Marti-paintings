@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Finger Paint";
+  background-color: #f6f6f6;
+}
+
+.heading__container {
+  padding-top: 2rem;
+  height: 80vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#262e8f), color-stop(50%, #070707));
+  background-image: linear-gradient(to bottom, #262e8f, #070707 50%);
+}
+
+.heading {
+  height: 80vh;
+  background-image: url("22.png");
+  background-size: cover;
+  margin: 2rem;
+  border-radius: 2rem;
+  -webkit-box-shadow: 0 -10px 20px black;
+          box-shadow: 0 -10px 20px black;
+}
+
+.heading-text {
+  position: absolute;
+  font-size: 10rem;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -40%);
+          transform: translate(-50%, -40%);
+  color: white;
+  width: 80%;
+  text-align: center;
+}
+
+.img-container {
+  margin-top: 8rem;
+  background-image: url(img5.png);
+  height: 60rem;
+  position: relative;
+  border-radius: 2rem;
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.martyna {
+  position: absolute;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  text-align: center;
+  margin-top: 48rem;
+  margin-bottom: 10rem;
+  color: #0a0a0a;
+  font-size: 8rem;
+  background-image: url(img2.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  padding: 2rem 10rem;
+  width: 100%;
+  border-radius: 1rem;
+  -webkit-box-shadow: 10px 10px 30px black;
+          box-shadow: 10px 10px 30px black;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+}
+
+.img-3 {
+  margin-top: 5rem;
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.last-container {
+  margin-top: 5rem;
+  position: relative;
+}
+
+.last-text {
+  position: absolute;
+  color: white;
+  font-size: 5rem;
+  top: 50%;
+  left: 10%;
+  -webkit-transform: translate(-10%, -50%);
+          transform: translate(-10%, -50%);
+  width: 70%;
+}
+
+.last-img {
+  height: 40vh;
+}
+/*# sourceMappingURL=main.css.map */
